@@ -1,1 +1,115 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* REGLAS DE DISEÑO TOUR OF HEROES*/
+
+/*BODY*/
+
+body{
+    background-color: yellow;
+}
+
+/*HEADER*/
+
+.header{
+    background-color: black;
+    color: white;   
+}
+
+.header_boton{
+    background-color: red;
+    color: black;
+}
+
+/*DASHBOARD TOP*/
+
+.dashboard_top{
+    background-color: orange;
+    color: black;
+}
+
+.dashboard_boton{
+    background-color: red;
+    color: black;
+}
+
+/* TARJETA DETALLES*/
+
+.tarjeta_detalle{
+    background-color: black;
+    color: white;
+}
+
+.tarjeta_detalle_boton{
+    background-color: yellow;
+    color: black;
+}
+
+/*LISTADO*/
+
+.listado_heroes{
+    background-color: black;
+    color: white;   
+}
+
+.div_listado_numeral{
+    background-color: red;
+    color: black;
+}
+
+.div_listado_nombre_heroe{
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+
+  h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+  }
+  
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+
+  button {
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  body, input[type="text"], button {
+    color: #333;
+    font-family: Cambria, Georgia, serif;
+  }
+
+  button {
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  
