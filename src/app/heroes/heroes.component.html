@@ -1,0 +1,13 @@
+<h2>{{hero.name | uppercase}} Details</h2>
+<div><span>Id: </span>{{hero.id}}</div>
+<div><span>Nombre: </span>{{hero.name}}</div>
+<div><span>Altura: </span>{{hero.altura}}</div>
+<div><span>Sexo: </span>{{hero.sexo}}</div>
+<div><span>Peso: </span>{{hero.peso}}</div>
+<div><span>Edad: </span>{{hero.edad}}</div>
+<div><span>Poder: </span>{{hero.poder}}</div>
+
+<div>
+    <label for="name">Hero Name</label>
+    <label id="name" [(ngModel)]="hero.name" placeholder="name"></label>
+</div>
