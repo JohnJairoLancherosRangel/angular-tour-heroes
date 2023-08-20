@@ -27,6 +27,7 @@
 </ul>
 -->
 
+<h2>My Heroes</h2>
 <table class="table table-striped" >
     <thead>
       <tr>
@@ -47,3 +48,29 @@
       </tr>
     </tbody>
   </table>
+
+  <h2>My Heroes Cards</h2>
+
+  <div class="container">
+
+    <div class="row" >
+
+        <div class="col-lg-3 col-md-6 col-sm-12" *ngFor="let hero of heroes">
+
+          <div class="card" style="width: 18rem;" >
+            <img class="card-img-top" src="{{hero.imagen}}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{hero.name}}</h5>
+              <p class="card-text"><strong>Sexo: </strong>{{hero.sexo}}</p>
+              <p class="card-text"><strong>Poder: </strong>{{hero.poder}}</p>
+              <a href="#" class="btn btn-primary">Detalles Héroe</a>
+            </div>
+          </div>
+
+        </div>
+    </div>
+
+  </div>
+
+
+  

@@ -26,7 +26,7 @@ export const Heroes: hero[]= [
       },
       {
         id: 3,
-        imagen : 'https://static.wikia.nocookie.net/ficcion-sin-limites/images/e/ee/Jaja%2C_una_mantenida_OP.png/revision/latest/smart/width/386/height/259?cb=20200826200509&path-prefix=es',
+        imagen : 'https://i.pinimg.com/550x/f7/4f/19/f74f1986bd158e9a46c352efce47d899.jpg',
         name: 'Celeritas',
         altura: '3.1 Metros',
         sexo: 'Femenino' ,
@@ -103,7 +103,7 @@ export const Heroes: hero[]= [
       },
       {
         id: 10,
-        imagen : 'https://static.wikia.nocookie.net/marveldatabase/images/e/e6/Windstorm_%28Earth-616%29_from_Marvel_Super-Heroes_Vol_2_6_0001.png/revision/latest?cb=20130515195849',
+        imagen : 'https://w0.peakpx.com/wallpaper/488/227/HD-wallpaper-no-fear-clouds-lighting-lightning-man-nature-storm-thunder-umbrella-walking.jpg',
         name: 'Windstorm',
         altura: '2 Metros',
         sexo: 'Masculino' ,
