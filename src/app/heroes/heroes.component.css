@@ -9,3 +9,16 @@ div{
 label{
     background-color: white;
 }
+
+.botonHeroe{
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.heroes{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+}

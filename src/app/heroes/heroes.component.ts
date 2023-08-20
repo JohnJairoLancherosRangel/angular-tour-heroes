@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { hero } from '../hero';
+import { Heroes } from '../mock-heroes';
 
 @Component({
   selector: 'app-heroes',
@@ -8,8 +9,10 @@ import { hero } from '../hero';
 })
 export class HeroesComponent {
 
+
   hero : hero ={
     id: 1,
+    imagen : 'https://static.wikia.nocookie.net/marveldatabase/images/e/e6/Windstorm_%28Earth-616%29_from_Marvel_Super-Heroes_Vol_2_6_0001.png/revision/latest?cb=20130515195849',
     name: 'Windstorm',
     altura: '2 Metros',
     sexo: 'Masculino' ,
@@ -18,5 +21,7 @@ export class HeroesComponent {
     poder: 'Generar Tormentas'
 
   };
+
+  heroes = Heroes;
 
 }
