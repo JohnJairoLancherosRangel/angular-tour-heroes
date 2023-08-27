@@ -24,4 +24,22 @@ export class HeroesComponent {
 
   heroes = Heroes;
 
+  SelectedHero?: hero;
+
+  OnSelected(hero:hero) : void{
+    this.SelectedHero = hero;
+    console.log("Selected Hero:", hero)
+  }
+
+  MensajeHeroeSeleccionado?: string;
+
+  onMouseEnter(hero:hero){
+    this.MensajeHeroeSeleccionado = "Has Seleccionado al Héroe : " + hero.name;
+  }
+
+  onMouseOut(){
+    this.MensajeHeroeSeleccionado = "No Estas Seleccionando Ningún Héroe";
+  }
+
+
 }
